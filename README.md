@@ -2,7 +2,7 @@
 ---
 # Installation:
 
-StreamLog works under MacOS, Linux and Windows.
+The aplication works under MacOS, Linux and Windows.
 
 __WSL will not work due to limited HW access.__
 
@@ -44,7 +44,7 @@ git submodule init
 git submodule update
 ```
 
-To run `StreamLog`, execute `main.py` with your venv active:
+To run, execute `main.py` within your virtual environment:
 ```bash
 python main.py
 ```
@@ -85,7 +85,7 @@ git submodule init
 git submodule update
 ```
 
-To run `StreamLog`, execute `main.py` with your virtual environment active:
+To run, execute `main.py` within your virtual environment:
 ```powershell
 python main.py
 ```
