@@ -108,17 +108,17 @@ Read the included comments for more details.
 To get started on the algorithm implementation, you can follow the tasks below:
 
 1. Set up your environment and familiarize yourself with the streaming application.
-2. Connect to an IMU and analyze the output .csv files in the output folder. Compare to the cleaned file samples found here [1], note that the data is aligned in time and converted to SI units.
-3. Use the `scaling_factors` found in `stream.py` to write a script that reads the raw output data from the streaming application, converts it to SI units and aligns the timestamps between devices, e.g. through cross-correlation of a specific calibration movement at the start of the recording. **Bonus**: Implement a TCP/UDP data streaming interface in the GUI to live stream the data to your script instead.
-4. Read up on different representations of spatial rotations, particularly quaternions [2]. Implement an efficient quaternion estimation. You can use the helper methods found in `./library/quaternions.py`, or alternatively use the available quaternion estimation implementation based on VQF [3]. **Bonus**: Implement quaternion estimation using an Extended Kalman Filter [4], with a particular focus on computing efficiency.
+2. Connect to an IMU and analyze the output .csv files in the output folder. Compare to the cleaned file samples found here [[1](#links)], note that the data is aligned in time and converted to SI units.
+3. Use the `scaling_factors` found in `stream.py` to write a script that reads the raw output data from the streaming application, converts it to SI units and aligns the timestamps between devices, e.g. through cross-correlation of a specific calibration movement at the start of the recording. **Bonus:** Implement a TCP/UDP data streaming interface in the GUI to live stream the data to your script instead.
+4. Read up on different representations of spatial rotations, particularly quaternions [[2](#links)]. Implement an efficient quaternion estimation. You can use the helper methods found in `./library/quaternions.py`, or alternatively use the available quaternion estimation implementation based on VQF [[3](#links)]. **Bonus:** Implement quaternion estimation using an Extended Kalman Filter [[4](#links)], with a particular focus on computing efficiency.
 5. The simplest movement compensation method is a reference frame transformation of the wrist IMU in the body frame given by the trunk IMU. Write a method to perform a transformation of IMU data from the global frame into the body frame.
-6. Read into position & orientation estimation from IMU data [5]
-7. Implement a compensation motion detection algorithm that generates Boolean labels from motion tracker data of the trunk IMU. **Bonus** Clean and summarize your algorithm as a class implementation of the Predictor abstract base class (`./library/datatypes/predictor.py`) for use in a real-time application.
-8. Implement a motion detection algorithm that generates Boolean labels from motion tracker data of the wrist IMU. Reframe the data to the body frame in order to account for unwanted compensation movements. **Bonus** Clean and summarize your algorithm as a class implementation of the Predictor abstract base class (`./library/datatypes/predictor.py`) for use in a real-time application.
+6. Read into position & orientation estimation from IMU data [[5](#links)]
+7. Implement a compensation motion detection algorithm that generates Boolean labels from motion tracker data of the trunk IMU. **Bonus:** Clean and summarize your algorithm as a class implementation of the Predictor abstract base class (`./library/datatypes/predictor.py`) for use in a real-time application.
+8. Implement a motion detection algorithm that generates Boolean labels from motion tracker data of the wrist IMU. Reframe the data to the body frame in order to account for unwanted compensation movements. **Bonus:** Clean and summarize your algorithm as a class implementation of the Predictor abstract base class (`./library/datatypes/predictor.py`) for use in a real-time application.
 9. Implement a unified motion detection algorithm that generates Boolean labels from motion tracker data of both the wrist and trunk IMUs. The algorithm should return a `True` label only if the movement was performed with little or no compensatory movements from the trunk.
-10. Submit all code either as a fork of this repo, or uploaded here [1]
+10. Submit all code either as a fork of this repo, or uploaded here [[1](#links)]
 
-## Links / References
+## Links
 [1] Sample datasets and code submissions (password: `hacklife<3`): https://polybox.ethz.ch/index.php/s/OMkVh5Mhgq00tYG
 
 [2] Spatial representation and quaternions: https://eater.net/quaternions / 
