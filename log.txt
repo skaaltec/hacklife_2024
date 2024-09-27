@@ -1,0 +1,42 @@
+2024-09-27 17:52:51,058 - INFO - Application started
+2024-09-27 17:52:53,400 - INFO - Starting device scan
+2024-09-27 17:52:58,644 - INFO - Completed device scan
+2024-09-27 17:53:00,287 - INFO - Starting recording
+2024-09-27 17:53:00,288 - INFO - Saving data to output
+2024-09-27 17:53:23,358 - INFO - Stopped recording
+2024-09-27 17:53:23,359 - INFO - Closing application
+2024-09-27 17:54:51,586 - INFO - Application started
+2024-09-27 17:54:54,811 - INFO - Starting device scan
+2024-09-27 17:55:00,044 - INFO - Completed device scan
+2024-09-27 17:55:01,203 - INFO - Starting recording
+2024-09-27 17:55:01,203 - INFO - Saving data to output
+2024-09-27 17:55:08,928 - INFO - Stopped recording
+2024-09-27 17:55:39,535 - INFO - Application started
+2024-09-27 17:55:46,886 - INFO - Starting device scan
+2024-09-27 17:55:52,072 - INFO - Completed device scan
+2024-09-27 17:55:52,733 - INFO - Starting recording
+2024-09-27 17:55:52,734 - INFO - Saving data to output
+2024-09-27 18:02:11,127 - INFO - Application started
+2024-09-27 18:02:12,499 - INFO - Starting device scan
+2024-09-27 18:02:17,673 - INFO - Completed device scan
+2024-09-27 18:02:21,395 - INFO - Starting recording
+2024-09-27 18:02:21,395 - INFO - Saving data to output
+2024-09-27 18:06:47,519 - INFO - Application started
+2024-09-27 18:06:48,677 - INFO - Starting device scan
+2024-09-27 18:06:53,872 - INFO - Completed device scan
+2024-09-27 18:06:54,694 - INFO - Starting recording
+2024-09-27 18:06:54,694 - INFO - Saving data to output
+2024-09-27 18:21:35,612 - INFO - Application started
+2024-09-27 19:23:37,783 - INFO - Application started
+2024-09-27 19:23:39,510 - INFO - Starting device scan
+2024-09-27 19:23:44,708 - INFO - Completed device scan
+2024-09-27 19:23:46,479 - INFO - Closing application
+2024-09-27 19:24:26,049 - INFO - Application started
+2024-09-27 19:24:33,690 - INFO - Closing application
+2024-09-27 19:24:49,057 - INFO - Application started
+2024-09-27 19:24:50,557 - INFO - Starting device scan
+2024-09-27 19:24:55,741 - INFO - Completed device scan
+2024-09-27 19:25:02,492 - INFO - Starting recording
+2024-09-27 19:25:02,493 - INFO - Saving data to output
+2024-09-27 19:25:36,607 - INFO - Stopped recording
+2024-09-27 19:25:42,803 - INFO - Closing application
