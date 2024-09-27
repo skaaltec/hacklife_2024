@@ -1,13 +1,5 @@
-# StreamLog
-
-Based on `BLELog` by Philipp Schilk, 2022 (PBL, ETH Zuerich) and the [bleak](https://github.com/hbldh/bleak) 
-cross-platform Bluetooth backend.
-
+# SmartVNS Hacklife<3 2024 Challenge
 ---
-
-An application for streaming data from the  SmartVNS Motion Trackers over BLE.
-
-
 # Installation:
 
 StreamLog works under MacOS, Linux and Windows.
@@ -131,3 +123,7 @@ To get started on the algorithm implementation, you can follow the tasks below:
 [3] Versatile Quaternion Filter: https://github.com/dlaidig/vqf
 [4] Extended Kalman Filter: https://www.kaggle.com/code/hrshtt/kalman-filters-and-imus-starter / https://ahrs.readthedocs.io/en/latest/filters/ekf.html
 [5] Overview IMU position & orientation estimation: https://arxiv.org/pdf/1704.06053
+
+
+---
+Based on `BLELog` by Philipp Schilk, 2022 (PBL, ETH Zuerich) and the [bleak](https://github.com/hbldh/bleak) cross-platform Bluetooth backend.
