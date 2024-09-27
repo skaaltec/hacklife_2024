@@ -118,10 +118,15 @@ To get started on the algorithm implementation, you can follow the tasks below:
 9. Implement a unified motion detection algorithm that generates Boolean labels from motion tracker data of both the wrist and trunk IMUs. The algorithm should return a `True` label only if the movement was performed with little or no compensatory movements from the trunk.
 10. Submit all code either as a fork of this repo, or uploaded here [1]
 
+## Links / References
 [1] Sample datasets and code submissions (password: `hacklife<3`): https://polybox.ethz.ch/index.php/s/OMkVh5Mhgq00tYG
+
 [2] Spatial representation and quaternions: https://eater.net/quaternions / 
+
 [3] Versatile Quaternion Filter: https://github.com/dlaidig/vqf
+
 [4] Extended Kalman Filter: https://www.kaggle.com/code/hrshtt/kalman-filters-and-imus-starter / https://ahrs.readthedocs.io/en/latest/filters/ekf.html
+
 [5] Overview IMU position & orientation estimation: https://arxiv.org/pdf/1704.06053
 
 
