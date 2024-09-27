@@ -2,7 +2,7 @@
 ---
 # Installation:
 
-The aplication works under MacOS, Linux and Windows.
+The application works under MacOS, Linux and Windows.
 
 __WSL will not work due to limited HW access.__
 
